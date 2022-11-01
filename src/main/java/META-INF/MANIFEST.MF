@@ -1,0 +1,5 @@
+Manifest-Version: 1.0.0
+Main-Class: run.saving.apisix.ApisixAuthorizePluginApplication
+Created-By: Maven Archiver 3.6.3
+Build-Jdk-Spec: 11
+Built-By: Saving

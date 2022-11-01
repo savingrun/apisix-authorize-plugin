@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+
+logging:
+  level:
+    root: debug
+
+cache.config:
+  expired: ${APISIX_CONF_EXPIRE_TIME}
+  capacity: 1000
+
+socket:
+  file: ${APISIX_LISTEN_ADDRESS}
